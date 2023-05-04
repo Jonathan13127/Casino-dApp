@@ -158,17 +158,17 @@ export const LotteryGame = () =>{
     }
 
     return(
-        <div className='h-100 w-100 d-flex justify-content-center align-items-center'>
+        <main className='h-100 w-100 d-flex justify-content-center align-items-center'>
 
           <div className='w-25 h-25 border rounded d-flex justify-content-center align-items-center'>
 
-            <div className='d-flex-column justify-content-center align-items-center'>
+            <div className='d-flex-column justify-content-center align-items-center p-2'>
 
               <div className='mb-2 p-1 d-flex justify-content-center align-items-center'>
                 <h1 className='mt-0'>{balance/10**18} </h1>
                 <FaEthereum size={40}/>
               </div>
-  
+            
               <Button className='w-100' color='primary' onClick={playLottery}>Play</Button>
               {isOwner && <Button color='success' onClick={pickWinner}>Tirer au sort</Button>}
               {error && <p className='error'>{error}</p>}
@@ -183,6 +183,6 @@ export const LotteryGame = () =>{
             </ul>
           </div>
 
-        </div>
+        </main>
     );
 }

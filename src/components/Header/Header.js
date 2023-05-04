@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Button } from 'reactstrap';
 import './Header.css'
-import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 export const Header = () => {
 

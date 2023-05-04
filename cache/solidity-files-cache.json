@@ -108,7 +108,7 @@
         "Context"
       ]
     },
-    "/home/jonathan/Documents/ESGI/Blockchain publique ethereum et smartcontract/casino/contracts/Lottery.sol": {
+    "/home/jonathan/Documents/ESGI/Blockchain publique ethereum et smartcontract/Casino-dApp/contracts/Lottery.sol": {
       "lastModificationDate": 1683123520629,
       "contentHash": "563d41e757b824c956996719a8746c09",
       "sourceName": "contracts/Lottery.sol",
@@ -146,7 +146,7 @@
         "Lottery"
       ]
     },
-    "/home/jonathan/Documents/ESGI/Blockchain publique ethereum et smartcontract/casino/node_modules/hardhat/console.sol": {
+    "/home/jonathan/Documents/ESGI/Blockchain publique ethereum et smartcontract/Casino-dApp/node_modules/hardhat/console.sol": {
       "lastModificationDate": 1683047144440,
       "contentHash": "4ff3cd2f6272c9a6516e9ee4f2b967d3",
       "sourceName": "hardhat/console.sol",
@@ -181,7 +181,7 @@
         "console"
       ]
     },
-    "/home/jonathan/Documents/ESGI/Blockchain publique ethereum et smartcontract/casino/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+    "/home/jonathan/Documents/ESGI/Blockchain publique ethereum et smartcontract/Casino-dApp/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
       "lastModificationDate": 1683047511459,
       "contentHash": "e436cea06129be2c73cda4b1acc848b5",
       "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
@@ -218,7 +218,7 @@
         "Ownable"
       ]
     },
-    "/home/jonathan/Documents/ESGI/Blockchain publique ethereum et smartcontract/casino/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+    "/home/jonathan/Documents/ESGI/Blockchain publique ethereum et smartcontract/Casino-dApp/node_modules/@openzeppelin/contracts/utils/Context.sol": {
       "lastModificationDate": 1683047511439,
       "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
@@ -251,6 +251,44 @@
       ],
       "artifacts": [
         "Context"
+      ]
+    },
+    "/home/jonathan/Documents/ESGI/Blockchain publique ethereum et smartcontract/Casino-dApp/contracts/CoinFlip.sol": {
+      "lastModificationDate": 1683183489170,
+      "contentHash": "cdb06a7d53cf3e770f1f0ecac152d58a",
+      "sourceName": "contracts/CoinFlip.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CoinFlip"
       ]
     }
   }

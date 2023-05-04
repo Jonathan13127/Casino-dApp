@@ -20,6 +20,13 @@ async function main() {
   await lottery.deployed();
 
   console.log("Lottery deployed to:", lottery.address);
+
+  const CoinFlip = await hre.ethers.getContractFactory("CoinFlip");
+  const coinFlip = await CoinFlip.deploy();
+
+  await coinFlip.deployed();
+
+  console.log("CoinFlip deployed to:", coinFlip.address);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
